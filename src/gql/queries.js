@@ -4,7 +4,7 @@ import { gql } from "@apollo/client";
 
 //getting data from graphql server using apollo client
 export const apolloClient = new ApolloClient({
-  uri: "http://localhost:4000/graphql",
+  uri: "http://localhost:5000/graphql", //url of your backend sever
   cache: new InMemoryCache(),
 });
 

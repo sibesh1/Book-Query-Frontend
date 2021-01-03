@@ -21,7 +21,7 @@ const AddAuthor = () => {
   };
   return (
     <ApolloProvider client={apolloClient}>
-      <div style={{ height: "45vh" }}>
+      <div>
         <h3>Add A New Author</h3>
         <form className="addBookorAuthor">
           <label>

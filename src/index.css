@@ -21,6 +21,14 @@ h1 {
   display: grid;
   grid-template-columns: 50vw 5vw 45vw;
 }
+@media screen and (max-width: 600px) {
+  .components {
+    grid-template-columns: 100vw;
+  }
+  hr {
+    display: none;
+  }
+}
 .book-list {
   text-align: center;
 }
@@ -60,4 +68,13 @@ p {
 }
 li {
   list-style: none;
+}
+.footer h3 {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+.footer a {
+  margin-left: 0.3rem;
+  color: #ffee93;
 }
