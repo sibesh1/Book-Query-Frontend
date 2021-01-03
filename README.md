@@ -9,6 +9,7 @@ This is a hobby project mimicking a simple GraphQL API server for storing detail
 3. Finding The Details About A Particular Book
 
 > Preview
+> [![Vscode Emoji Snippets](https://github.com/sibesh1/Book-Query-Frontend/blob/main/src/assets/Preview.png?raw=true "Vscode Emoji Snippets")]()
 
 > How To Customise/Improve It  
 > 1.Customise The [Frontend](https://github.com/sibesh1/Book-Query-Frontend) by replacing the build folder with your own.  
