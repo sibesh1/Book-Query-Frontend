@@ -12,7 +12,7 @@ This is a hobby project mimicking a simple GraphQL API server for storing detail
 > [![Vscode Emoji Snippets](https://github.com/sibesh1/Book-Query-Frontend/blob/main/src/assets/Preview.png?raw=true "Vscode Emoji Snippets")]()
 
 > How To Customise/Improve It  
-> 1.Customise The [Frontend](https://github.com/sibesh1/Book-Query-Frontend) by replacing the build folder with your own.  
+> 1.Link Of [Main Repo](https://github.com/sibesh1/Book-Query).  
 > 2.Add A Option To Delete A Particular Author/Book
 
 ---
