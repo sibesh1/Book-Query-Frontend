@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ADF7B6 */
+html,
+body,
+h1 {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(./assets/Sublime\ Light.png);
+  background-size: cover;
+}
+.App {
+  color: #ffee93;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.components {
+  margin-top: 0.5rem;
+  display: grid;
+  grid-template-columns: 50vw 5vw 45vw;
+}
+.book-list {
+  text-align: center;
+}
+.book-list button {
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+}
+.addBookorAuthor {
+  display: grid;
+  margin-bottom: 2rem;
+  grid-gap: 0.6rem;
+}
+.addBookorAuthor button {
+  max-width: 60px;
+}
+button {
+  color: #212121;
+  background-color: #97f9f9;
+  box-shadow: none;
+}
+button:hover {
+  cursor: pointer;
+}
+p {
+  text-align: left;
+  margin-top: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+.book-slides {
+  display: grid;
+  justify-content: center;
+  grid-gap: 0.5rem;
+}
+.left-side {
+  display: grid;
+  overflow: hidden;
+}
+li {
+  list-style: none;
 }
